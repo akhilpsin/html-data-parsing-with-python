@@ -1,14 +1,12 @@
 #!/usr/bin/env python
-# ## Step 1: Importing Required Libraries
-
-# your code here
+#Importing Required Libraries
 from bs4 import BeautifulSoup
 import requests
 import csv
 import re
 import requests
 
-#this part of the code is to extract all the index JOB id for parcing
+#This part of the code is to extract all the index JOB id for parcing
 jobURLs=[]
 for i in range(1,5):
     url = 'https://www.staticjobs.com/search.php?query=Canada&page='+str(i)
