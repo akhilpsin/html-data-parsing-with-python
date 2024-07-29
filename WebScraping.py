@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-#Importing Required Libraries
 from bs4 import BeautifulSoup
 import requests
 import csv
